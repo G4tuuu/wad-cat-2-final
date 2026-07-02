@@ -1,0 +1,20 @@
+Conversation Summary
+
+I created this portfolio for Laiwa Anyin Tallo, an artist and model based in Nairobi.
+ Before starting the project, I discussed the website with her and gathered information about the work she wanted to showcase.
+
+The main goal of the website is to present her artwork, artistic identity, and original characters in a way that feels personal and visually engaging.
+ The intended audience includes people interested in her art, potential collaborators, and anyone who would like to learn more about her creative journey.
+
+From our discussions and the materials she shared, I learned that surrealism, internal expression, and storytelling are important themes in her work. 
+She also wanted her original characters, Iris and Carmen, to have a dedicated section in the portfolio.
+
+Based on this information, I planned a portfolio-style website with the following sections:
+
+* About Me
+* Early Work
+* My OCs
+* My Why
+
+I chose a blue and silver colour palette to create a calm, artistic atmosphere and used a gallery layout to showcase her artwork.
+ The website was designed to be responsive and easy to navigate while keeping the focus on her creative work.
