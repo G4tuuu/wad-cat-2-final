@@ -134,3 +134,15 @@ lightButton.addEventListener("click", function(){
     localStorage.setItem("theme", "light");
 
 });
+
+
+// FEATURE 5 - Banner Toggle
+
+let banner = document.querySelector("#bannerImage");
+let caption = document.querySelector("#bannerCaption");
+
+banner.addEventListener("click", function(){
+
+    caption.classList.toggle("hidden");
+
+});
