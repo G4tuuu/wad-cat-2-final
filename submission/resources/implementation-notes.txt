@@ -1,0 +1,14 @@
+Feature 1:
+Implemented a dynamic gallery using a JavaScript array of objects and forEach().
+
+Feature 2:
+Implemented a wishlist where users can add the art the loved the most and remove them using createElement(), appendChild() and remove().
+
+Feature 3:
+Implemented form validation using preventDefault(), .value and textContent to confirm feedback was sent.
+
+Feature 4:
+Implemented a persistent theme preference using localStorage.
+
+Feature 5:
+Implemented a click-to-reveal caption using classList.toggle().
