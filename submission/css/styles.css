@@ -199,6 +199,24 @@ footer hr {
     transform: scale(1.02);
 }
 
+#wishlist{
+    margin-top:40px;
+}
+
+#wishlist input{
+    padding:10px;
+}
+
+#wishlist button{
+    padding:10px;
+    margin-left:10px;
+    cursor:pointer;
+}
+
+#wishlist li{
+    margin:10px 0;
+}
+
 /*mobile responsiveness*/
 @media screen and (max-width:600px) {
 

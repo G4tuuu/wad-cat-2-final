@@ -37,3 +37,39 @@ artworks.forEach(function(artwork){
     `;
 
 });
+
+
+// FEATURE 2 - Wishlist
+
+let addButton = document.querySelector("#addBtn");
+let input = document.querySelector("#artInput");
+let list = document.querySelector("#wishlistItems");
+
+addButton.addEventListener("click", function(){
+
+    if(input.value === ""){
+        alert("Please enter an artwork.");
+        return;
+    }
+
+    let newItem = document.createElement("li");
+
+    newItem.textContent = input.value + " ";
+
+    let removeButton = document.createElement("button");
+
+    removeButton.textContent = "Remove";
+
+    removeButton.addEventListener("click", function(){
+
+        newItem.remove();
+
+    });
+
+    newItem.appendChild(removeButton);
+
+    list.appendChild(newItem);
+
+    input.value = "";
+
+});
