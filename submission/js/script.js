@@ -73,3 +73,35 @@ addButton.addEventListener("click", function(){
     input.value = "";
 
 });
+
+
+
+// FEATURE 3 - Form Validation
+
+
+let form = document.querySelector("#contactForm");
+let feedback = document.querySelector("#feedback");
+
+form.addEventListener("submit", function(event){
+
+    event.preventDefault();
+
+    let name = document.querySelector("#userName").value;
+    let message = document.querySelector("#userMessage").value;
+
+    if(name === "" || message === ""){
+
+        feedback.textContent = "Please fill in all fields.";
+
+    }
+
+    else{
+
+        feedback.textContent =
+        "Thank you, " + name + "! Your message has been sent.";
+
+        form.reset();
+
+    }
+
+});

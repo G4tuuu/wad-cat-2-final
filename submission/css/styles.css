@@ -217,6 +217,12 @@ footer hr {
     margin:10px 0;
 }
 
+#feedback{
+    margin-top:15px;
+    font-weight:bold;
+    color:#0D1B2A;
+}
+
 /*mobile responsiveness*/
 @media screen and (max-width:600px) {
 
