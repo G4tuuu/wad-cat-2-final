@@ -223,6 +223,13 @@ footer hr {
     color:#0D1B2A;
 }
 
+.darkTheme{
+
+    background-color:#1f1f1f;
+    color:white;
+
+}
+
 /*mobile responsiveness*/
 @media screen and (max-width:600px) {
 

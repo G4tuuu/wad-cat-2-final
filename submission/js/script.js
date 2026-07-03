@@ -105,3 +105,32 @@ form.addEventListener("submit", function(event){
     }
 
 });
+
+
+// FEATURE 4 - Local Storage
+
+
+let lightButton = document.querySelector("#lightBtn");
+let darkButton = document.querySelector("#darkBtn");
+
+if(localStorage.getItem("theme") === "dark"){
+
+    document.body.classList.add("darkTheme");
+
+}
+
+darkButton.addEventListener("click", function(){
+
+    document.body.classList.add("darkTheme");
+
+    localStorage.setItem("theme", "dark");
+
+});
+
+lightButton.addEventListener("click", function(){
+
+    document.body.classList.remove("darkTheme");
+
+    localStorage.setItem("theme", "light");
+
+});
